@@ -36,4 +36,5 @@ public interface FileReader extends Closeable {
     static FileReader getInstance(File file) throws IOException {
         return new FileReaderImpl(file);
     }
+    
 }
