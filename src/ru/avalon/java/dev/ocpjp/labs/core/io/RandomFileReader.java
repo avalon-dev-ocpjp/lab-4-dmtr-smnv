@@ -49,4 +49,5 @@ public interface RandomFileReader extends Closeable {
             throw new IOException(e);
         }
     }
+    
 }

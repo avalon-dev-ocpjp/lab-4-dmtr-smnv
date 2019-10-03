@@ -13,4 +13,5 @@ public interface Builder<E> {
      * @return экземпляр типа {@link E}
      */
     E build();
+    
 }
